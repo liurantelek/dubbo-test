@@ -2,77 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0157d6ef-e10b-4841-bfc5-27fd5cdb3119" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/dubbo-order.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/src/main/java/com/lr/dubbo/order/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/src/main/java/com/lr/dubbo/order/DoOrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/src/main/java/com/lr/dubbo/order/DoOrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/src/main/java/com/lr/dubbo/order/IOrderQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/src/main/java/com/lr/dubbo/order/IOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/src/main/resources/META-INF/client/order-customer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/src/test/java/com/lr/dubbo/order/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/classes/com/lr/dubbo/order/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/classes/com/lr/dubbo/order/DoOrderRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/classes/com/lr/dubbo/order/DoOrderResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/classes/com/lr/dubbo/order/IOrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/order-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/surefire-reports/TEST-com.lr.dubbo.order.AppTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/surefire-reports/com.lr.dubbo.order.AppTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-api/target/test-classes/com/lr/dubbo/order/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/order-provider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/src/main/java/com/lr/dubbo/order/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/src/main/java/com/lr/dubbo/order/OrderQueryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/src/main/java/com/lr/dubbo/order/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/src/main/resources/META-INF/spring/order-provider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/src/test/java/com/lr/dubbo/order/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/classes/META-INF/spring/order-provider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/classes/com/lr/dubbo/order/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/classes/com/lr/dubbo/order/OrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/order-provider-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/surefire-reports/TEST-com.lr.dubbo.order.AppTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/surefire-reports/com.lr.dubbo.order.AppTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/order-provider/target/test-classes/com/lr/dubbo/order/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/order-consumer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/order-consumer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/java/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/webapp/WEB-INF/client/applicationDubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-api/src/main/java/com/lr/dubbo/user/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/lr/dubbo/user/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/user-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-order/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-order/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/user-api/target/" />
+    <ignored path="$PROJECT_DIR$/user-provider/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,41 +35,41 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="232" />
-          <entry key="xml" value="278" />
+          <entry key="java" value="257" />
+          <entry key="xml" value="336" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="232" />
-          <entry key="XML" value="278" />
+          <entry key="JAVA" value="257" />
+          <entry key="XML" value="336" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="1" />
+          <entry key="java" value="4" />
           <entry key="properties" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="4" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="275">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -133,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
+            <state relative-caret-position="594">
               <caret line="22" column="35" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -143,10 +87,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+        <entry file="file://$PROJECT_DIR$/user-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-provider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="243">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/lr/dubbo/user/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/lr/dubbo/user/IUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/lr/dubbo/user/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/user-provider.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -174,6 +159,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -194,6 +180,9 @@
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/resources/order-consumer.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/user-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/java/com/lr/dubbo/user/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/user-provider.xml" />
       </list>
     </option>
   </component>
@@ -207,7 +196,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="E:/software/maven" />
-        <option name="userSettingsFile" value="F:\idea精准投资\SGCCPlatform-base\SGCCPlatfrom开发环境设置\settings.xml" />
+        <option name="userSettingsFile" value="E:\software\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -232,7 +221,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="459" />
     <option name="y" value="71" />
     <option name="width" value="1061" />
@@ -256,17 +245,25 @@
             <path>
               <item name="dubbo-user" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dubbo-user" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dubbo-user" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -274,9 +271,46 @@
             <path>
               <item name="dubbo-user" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-user" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-user" type="462c0819:PsiDirectoryNode" />
+              <item name="user-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,7 +322,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570868615659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570876967283" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -339,15 +373,16 @@
       <option name="presentableId" value="Default" />
       <updated>1570777524623</updated>
       <workItem from="1570777528173" duration="12441000" />
-      <workItem from="1570868687950" duration="1321000" />
+      <workItem from="1570868687950" duration="3106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13762000" />
+    <option name="totallyTimeSpent" value="15547000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -364,7 +399,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -391,23 +426,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -426,6 +444,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/lr/dubbo/user/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/lr/dubbo/user/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/java/com/lr/dubbo/user/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-provider/src/main/resources/META-INF/spring/user-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
         </state>
       </provider>
     </entry>

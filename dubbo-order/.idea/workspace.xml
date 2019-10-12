@@ -2,74 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9164a-b7c4-4c7d-a42a-ee54b4a8721e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-order.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/src/main/java/com/lr/dubbo/order/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/src/main/java/com/lr/dubbo/order/DoOrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/src/main/java/com/lr/dubbo/order/DoOrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/src/main/java/com/lr/dubbo/order/IOrderQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/src/main/java/com/lr/dubbo/order/IOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/src/main/resources/META-INF/client/order-customer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/src/test/java/com/lr/dubbo/order/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/classes/com/lr/dubbo/order/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/classes/com/lr/dubbo/order/DoOrderRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/classes/com/lr/dubbo/order/DoOrderResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/classes/com/lr/dubbo/order/IOrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/order-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/surefire-reports/TEST-com.lr.dubbo.order.AppTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/surefire-reports/com.lr.dubbo.order.AppTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-api/target/test-classes/com/lr/dubbo/order/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/order-provider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/src/main/java/com/lr/dubbo/order/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/src/main/java/com/lr/dubbo/order/OrderQueryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/src/main/java/com/lr/dubbo/order/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/src/main/resources/META-INF/spring/order-provider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/src/test/java/com/lr/dubbo/order/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/classes/META-INF/spring/order-provider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/classes/com/lr/dubbo/order/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/classes/com/lr/dubbo/order/OrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/order-provider-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/surefire-reports/TEST-com.lr.dubbo.order.AppTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/surefire-reports/com.lr.dubbo.order.AppTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-provider/target/test-classes/com/lr/dubbo/order/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/dubbo-user.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/src/main/resources/order-consumer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-user/target/classes/order-consumer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/java/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dubbo-web/src/main/webapp/WEB-INF/client/applicationDubbo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/user-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/user-api/src/main/java/com/lr/dubbo/user/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/user-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/user-provider/src/main/java/com/lr/dubbo/user/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dubbo-user/user-provider/src/main/resources/META-INF/spring/user-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-user/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-user/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-user/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-user/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-user/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -170,8 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/order-provider/src/main/resources/META-INF/spring/order-provider.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            <state relative-caret-position="432">
+              <caret line="16" column="16" lean-forward="true" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -180,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/order-api/src/main/resources/META-INF/client/order-customer.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -319,7 +261,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="459" />
     <option name="y" value="71" />
     <option name="width" value="1061" />
@@ -540,15 +482,16 @@
       <option name="presentableId" value="Default" />
       <updated>1570777341462</updated>
       <workItem from="1570777345593" duration="27735000" />
-      <workItem from="1570868681415" duration="954000" />
+      <workItem from="1570868681415" duration="1556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28689000" />
+    <option name="totallyTimeSpent" value="29291000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -781,14 +724,14 @@
     <entry file="file://$PROJECT_DIR$/order-api/src/main/resources/META-INF/client/order-customer.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/order-provider/src/main/resources/META-INF/spring/order-provider.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="432">
+          <caret line="16" column="16" lean-forward="true" selection-end-line="37" />
         </state>
       </provider>
     </entry>
