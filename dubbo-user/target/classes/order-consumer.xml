@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context-3.1.xsd
+       http://code.alibabatech.com/schema/dubbo
+      http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+
+    <dubbo:application name="order-provider" owner="liuran"/>
+
+    <!-- 注册中心-->
+    <dubbo:registry protocol="zookeeper" address="192.168.1.151:2181,192.168.1.171:2181,192.168.1.135:2181"/>
+
+
+    <!--生成一个远程服务的代理-->
+    <!--<dubbo:reference id="orderService" interface="com.lr.dubbo.order.IOrderService"-->
+                     <!--url="dubbo://192.168.1.73:20880/com.lr.dubbo.order.IOrderService"/>-->
+    <dubbo:reference id="orderService" interface="com.lr.dubbo.order.IOrderService" timeout="2000" protocol="dubbo"/>
+    <dubbo:reference id="orderQueryService" interface="com.lr.dubbo.order.IOrderQueryService" timeout="2000" protocol="dubbo"/>
+
+</beans>

@@ -1,0 +1,3 @@
+com\lr\dubbo\order\DoOrderResponse.class
+com\lr\dubbo\order\IOrderService.class
+com\lr\dubbo\order\DoOrderRequest.class
