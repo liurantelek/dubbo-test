@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://code.alibabatech.com/schema/dubbo
+      http://code.alibabatech.com/schema/dubbo/dubbo.xsd" default-autowire="byName">
+
+   <context:property-placeholder location="classpath:application.propeties"/>
+    <bean id="abstractXADataSource" class="com.atomikos.jdbc.AtomikosDataSourceBean" init-method="init"
+          destroy-method="close" abstract="true">
+        <property name="xaDataSourceClassName" value="com.mysql.jdbc.jdbc2.optional.MysqlXADataSource"/>
+        <property name="poolSize" value="10"/>
+        <property name="minPoolSize" value="10"/>
+        <property name="maxPoolSize" value="30"/>
+        <property name="borrowConnectionTimeout" value="60"/><!--获取连接失败重新获取等待最大时间-->
+        <property name="reapTimeout" value="20"/><!--最大获取数据时间-->
+        <property name="maxIdleTime" value="60"/><!--最大限制时间，超过最小连接池连接的连接将关闭-->
+        <property name="maintenanceInterval" value="60"/><!--连接回收时间-->
+        <property name="loginTimeout" value="60"/>
+        <property name="logWriter" value="60"/>
+        <property name="testQuery" >
+            <value>select 1</value>
+        </property>
+    </bean>
+</beans>

@@ -20,7 +20,10 @@
     <!--生成一个远程服务的代理-->
     <!--<dubbo:reference id="orderService" interface="com.lr.dubbo.order.IOrderService"-->
                      <!--url="dubbo://192.168.1.73:20880/com.lr.dubbo.order.IOrderService"/>-->
-    <dubbo:reference id="orderService" interface="com.lr.dubbo.order.IOrderService" timeout="2000" protocol="dubbo"/>
-    <dubbo:reference id="orderQueryService" interface="com.lr.dubbo.order.IOrderQueryService" timeout="2000" protocol="dubbo"/>
+    <!--dubbo容错机制 -->
+    <dubbo:reference id="orderService" interface="com.lr.dubbo.order.IOrderService" timeout="2000" protocol="dubbo"
+    loadbalance="random" cluster="failfast"/>
+    <dubbo:reference id="orderQueryService" interface="com.lr.dubbo.order.IOrderQueryService" timeout="2000" protocol="dubbo"
+    cluster="failfast"/>
 
 </beans>

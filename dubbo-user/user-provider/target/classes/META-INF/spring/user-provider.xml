@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://code.alibabatech.com/schema/dubbo
+      http://code.alibabatech.com/schema/dubbo/dubbo.xsd" default-autowire="byName">
+
+    <context:annotation-config/>
+    <context:component-scan base-package="com.lr.dubbo.user"/>
+    <dubbo:application name="user-provider" owner="liuran"/>
+
+    <!-- 注册中心-->
+    <dubbo:registry protocol="zookeeper" address="192.168.1.151:2181,192.168.1.171:2181,192.168.1.135:2181"/>
+    <dubbo:monitor protocol="registry"/>
+
+    <!--当前发布服务所依赖的协议 webservice/thrift/hessain/http-->
+    <dubbo:protocol name="dubbo" port="20880"/>
+
+    <!--<dubbo:registry subscribe="false"/>-->
+
+    <!--增加hessian协议-->
+    <!--<dubbo:protocol name="hessian" port="8090" server="jetty"/>-->
+
+    <!--服务发布的配置-->
+    <dubbo:service interface="com.lr.dubbo.user.IUserService"  ref="userService" protocol="dubbo"/>
+
+    <!--bean的定义-->
+    <bean id="userService" class="com.lr.dubbo.user.UserServiceImpl"/>
+
+</beans>

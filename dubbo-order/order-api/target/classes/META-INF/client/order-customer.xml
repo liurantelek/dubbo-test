@@ -11,5 +11,5 @@
       http://code.alibabatech.com/schema/dubbo/dubbo.xsd" default-autowire="byName">
 
     <context:annotation-config></context:annotation-config>
-    <dubbo:reference interface="com.lr.dubbo.order.IOrderQueryService" protocol="dubbo"/>
+    <dubbo:reference id="orderQueryService" interface="com.lr.dubbo.order.IOrderQueryService" protocol="dubbo"/>
 </beans>

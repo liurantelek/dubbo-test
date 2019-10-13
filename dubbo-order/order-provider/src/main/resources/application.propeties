@@ -1,0 +1,11 @@
+application.name=dubbo-order
+dubbo.service.provider.port=20880
+dubbo.service.provider.threads=200
+dubbo.cache.dir=d:/dubbo.cache
+
+dubbo.zk.servers=192.168.1.171:2181
+dubbo.zk.group=dubbo-dev
+
+dubbo.application.owner=liuran,feifei
+
+dubbo.protocal.accesslog=d:/logs/dubbo-order.log

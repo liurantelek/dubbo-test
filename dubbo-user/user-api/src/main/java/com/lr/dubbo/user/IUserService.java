@@ -7,4 +7,6 @@ package com.lr.dubbo.user;
  * @Description: 描述:
  */
 public interface IUserService {
+
+    UserLoginResponse login (UserLoginRequest request);
 }
